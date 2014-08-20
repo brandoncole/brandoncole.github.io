@@ -21,10 +21,57 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body data-target=".navbar-collapse" data-offset="51">
+  <body data-spy="scroll" data-target=".navbar-collapse" data-offset="75">
+
+    <style>
+    .product-link {
+      float: right;
+      font-weight: 300;
+    }
+    .product-image {
+      height: 250px;
+      border: 2px solid #f5f5f5
+    }
+    .product-vault { 
+    	background: url(./img/product-vault.jpg) no-repeat center left; 
+    	background-size: cover;
+    }
+    .product-inventor { 
+    	background: url(./img/product-inventor.jpg) no-repeat top left; 
+    	background-size: cover;
+    }
+    .product-inventorlt { 
+    	background: url(./img/product-inventorlt.jpg) no-repeat top left; 
+    	background-size: cover;
+    }
+    .product-publisher { 
+    	background: url(./img/product-publisher.jpg) no-repeat bottom left; 
+    	background-size: cover;
+    }
+    .product-tinkerbox { 
+    	background: url(./img/product-tinkerbox.jpg) no-repeat center center; 
+    	background-size: cover;
+    }
+    .product-fusion { 
+    	background: url(./img/product-fusion.jpg) no-repeat center center; 
+    	background-size: cover;
+    }
+    .product-123d { 
+    	background: url(./img/product-123d.jpg) no-repeat center right; 
+    	background-size: cover;
+    }
+    .product-tinkercad { 
+    	background: url(./img/product-tinkercad.jpg) no-repeat center right; 
+    	background-size: cover;
+    }
+    .product-platform { 
+    	background: url(./img/product-platform.jpg) no-repeat bottom left; 
+    	background-size: cover;
+    }
+    </style>
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" data-offset="50">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -37,10 +84,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <!--
             <li><a href="#intro">Intro</a></li>
+            <li><a href="#autodesk">Autodesk Life</a></li>
+            <li><a href="#architect">Architect Life</a></li>
+            <li><a href="#personal">Personal Life</a></li>
             <li><a href="#connect">Connect</a></li>
-          -->
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -61,6 +109,150 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Autodesk -->
+    <div class="container" id="autodesk">
+      <hr/>
+      <h2>Autodesk Life</h2>
+      <p class="lead">I've been engineering <a href="http://www.autodesk.com/products">Autodesk Products</a> since 2003 &bullet; I'm currently leading key initiatives for the <a href="http://www.autodesk.com/products/personal-design-and-creativity">Personal Creativity</a> division &bullet; Autodesk is an <em>amazing</em> place to work: <a href="http://news.autodesk.com/press-release/corporate-sustainability/autodesk-again-named-one-fortunes-100-best-companies-work">FORTUNE</a> and <a href="http://www.forbes.com/pictures/efik45emlfi/no-12-autodesk/">Forbes</a> agree &bullet; <a href="http://www.autodesk.com/gallery/overview">Autodesk Gallery</a> is an awe-inspiring gallery that's open to the public &bullet; <a href="http://www.autodesk.org/">Autodesk Foundation</a> invests in the most impactful people and organizations using the power of design to create a better world &bullet; Autodesk's <a href="http://techcrunch.com/2014/05/11/a-tour-through-autodesks-pier-9-workshop-the-fabrication-facility-where-out-there-ideas-turn-into-reality/">Pier 9 Office</a> has gained notoriety for office design &bullet; We host a major user conference called <a href="http://au.autodesk.com/">Autodesk University</a> &bullet; Our <a href="http://3drv.com/">3D<b>RV</b></a> is on a road trip to see design in action &bullet; I was awarded patent <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8462176.PN.&OS=PN/8462176&RS=PN/8462176">8,462,176</a> along the way &bullet; My colleagues have been all around the world: San Francisco, CA &middot; Portland, OR &middot; Atlanta, GA &middot; Boston, MA &middot; Boulder, CO &middot; Chicago, IL &middot; Detroit, MI &middot; Toronto, ON &middot; Belgium &middot; India &middot; China</p>
+      <p class="lead">Here some of the commercially released products I've worked on:</p>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Vault<span class="product-link"><a href="http://www.autodesk.com/products/vault-family/overview">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-vault"></div>
+            <div class="panel-footer"><span class="badge">Windows</span> <span class="badge">Client / Server</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Inventor<span class="product-link"><a href="http://www.autodesk.com/products/inventor/overview">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-inventor"></div>
+            <div class="panel-footer"><span class="badge">Windows</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Inventor LT<span class="product-link"><a href="http://www.autodesk.com/products/inventor-lt-family/overview">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-inventorlt"></div>
+            <div class="panel-footer"><span class="badge">Windows</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Publisher<span class="product-link"><a href="http://www.autodesk.com/products/inventor-publisher/overview">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-publisher"></div>
+            <div class="panel-footer"><span class="badge">Windows</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Tinkerbox<span class="product-link"><a href="https://itunes.apple.com/us/app/tinkerbox-hd/id415722219">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-tinkerbox"></div>
+            <div class="panel-footer"><span class="badge">iOS</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Fusion 360<span class="product-link"><a href="http://www.autodesk.com/products/fusion-360/overview">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-fusion"></div>
+            <div class="panel-footer"><span class="badge">Windows</span> <span class="badge">Mac</span><span class="badge" style="float: right; background-color: #2a6496;">Co-Architect</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">123D Design<span class="product-link"><a href="http://www.123dapp.com/design">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-123d"></div>
+            <div class="panel-footer"><span class="badge">Windows</span> <span class="badge">Mac</span> <span class="badge">Web</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Tinkercad<span class="product-link"><a href="https://tinkercad.com">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-tinkercad"></div>
+            <div class="panel-footer"><span class="badge">Web</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Creative Platform<span class="product-link"><a href="http://api.tinkercad.com">Official Site &raquo;</a></span></h3>
+            </div>
+            <div class="panel-body product-image product-platform"></div>
+            <div class="panel-footer"><span class="badge">Windows</span> <span class="badge">Mac</span> <span class="badge">Web</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+          </div>
+        </div>
+
+      </div>
+      <p class="lead text-center">Want to join us?  Head over to <a href="http://www.autodesk.com/careers">Autodesk Careers</a>.</p>
+    </div>
+
+    <div class="container" id="architect">
+      <hr/>
+      <h2>Architect Life</h2>
+      <p class="lead">Software Architecture is about developing solutions for the business's near term objectives, while keeping in mind longer-term business objectives, emerging technologies, threat models, failure scenarios, cross team leveraging, strategic partnerships, operational costs and a team’s core competencies.  Here’s some of the things on my mind &raquo;
+      <div class="row">
+
+        <div class="col-sm-6 col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Skills and Operations</h3>
+            </div>
+            <div class="panel-body">SaaS &bullet; PaaS &bullet; Analytics &bullet; Latency &bullet; Content Delivery Networks &bullet; Product Designs &bullet; Wireframes &bullet; Mockups &bullet; Computer Aided Design &bullet; 3D Graphics &bullet; A/B Testing &bullet; Phased Roadmaps &bullet; Platform Development &bullet; Standards Compliance &bullet; API Design &bullet; Object Oriented Design &bullet; NoSQL &bullet; Sprite Sheets &bullet; Distributed Systems &bullet; Performance Tuning &bullet; Fault Tolerance &bullet; Sharding &bullet; Load Balancing &bullet; Continuous Deployment &bullet; Agile Development &bullet; Sprint Planning &bullet; Single Points of Failure &bullet; Salted Passwords &bullet; Transactions &bullet; Encryption &bullet; SEO &bullet; Responsive Design &bullet; DevOps &bullet; UX &bullet; Patent Process &bullet; Cross Platform Development &bullet; OWASP Top 10 &bullet; SQL Injection &bullet; 3D Printing &bullet; CSG &bullet; Solid Modeling &bullet; Mesh Modeling &bullet; Globally Distributed Teams &bullet; Cross Functional Teams &bullet; Acquisitions &bullet; Employee Development &bullet; Customer Support &bullet; Social Media Campaigns &bullet; Opportunity Cost &bullet; Build vs. Buy</div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Technologies</h3>
+            </div>
+            <div class="panel-body">C &bullet; C++ &bullet; C# &bullet; Go &bullet; Python &bullet; JavaScript &bullet; JSON &bullet; HTML5 &bullet; CSS &bullet; Amazon EC2 &bullet; Amazon S3 &bullet; Amazon SQS &bullet; RIAK &bullet; AWS &bullet; Linode &bullet; Three.js &bullet; Boost &bullet; QT &bullet; Bootstrap &bullet; jQuery &bullet; Handlebars &bullet; Apache &bullet; Node.js &bullet; REST &bullet; SOAP &bullet; STL &bullet; COM &bullet; MFC &bullet; SQL &bullet; Mac &bullet; Windows &bullet; WebGL &bullet; OpenGL &bullet; CORS &bullet; OAuth &bullet; Emscripten</div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">Tools</h3>
+            </div>
+            <div class="panel-body">Sublime Text &bullet; Visual Studio &bullet; XCode &bullet; Adobe Photoshop CC &bullet; Adobe Illustrator CC &bullet; Google Analytics &bullet; MixPanel &bullet; Google Closure Compiler &bullet; YUIDoc &bullet; UglifyJS 2 &bullet; JIRA &bullet; Confluence &bullet; PowerPoint &bullet; Word &bullet; Excel &bullet; Perforce &bullet; Git &bullet; SmartGit &bullet; 3D Studio Max</div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="container" id="personal">
+      <hr/>
+      <h2>Personal Life</h2>
+      <p class="lead">I grew up in <a href="https://www.google.com/maps/place/Cincinnati,+OH">Cincinnati, Ohio</a> &bullet; I attended <a href="http://www.walnuthillseagles.com/">Walnut Hills High School</a> - <a href="http://www.usnews.com/education/best-high-schools/ohio/districts/cincinnati-city/walnut-hills-high-school-15134">ranked 77th</a> nationally &bullet; I live in <a href="https://www.google.com/maps/place/Kennesaw,+GA">Kennesaw, GA</a> &bullet; I am the lucky father of two wonderful daughters &bullet; My preferred browser is Google Chrome &bullet; My preferred computer is an Apple MacBook &bullet; In the past I've worked at <a href="http://www.ironcad.com">IronCAD</a> and <a href="http://www.radiantsystems.com">Radiant Systems</a> (acquired by NCR) and formed my own consulting company Atom Solutions (now dissolved)</p>
     </div>
 
     <div class="container" id="connect">
@@ -88,7 +280,7 @@
 
     <div class="container text-center">
       <hr/>
-      <p>This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> and built with <a href="http://getbootstrap.com/" alt="Bootstrap">Bootstrap</a>.  Designed and built in Atlanta, Georgia.  Last Updated on August 15th, 2014.</p>
+      <p>This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> and built with <a href="http://getbootstrap.com/" alt="Bootstrap">Bootstrap</a>.  Designed and built by me in Kennesaw, Georgia.  Last Updated on August 17th, 2014.</p>
       <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
     </div>
 
@@ -108,7 +300,6 @@
             'Vítáme tĕ',
             '欢迎',
             'Bine ai venit',
-            'добро пожаловать',
             '歓迎',
             'Benvenuto',
             'Accueil',
@@ -136,6 +327,14 @@
       ga('send', 'pageview');
 
     </script>
+
+    <script>
+      $('.navbar li a').click(function(event) {
+          event.preventDefault();
+          $($(this).attr('href'))[0].scrollIntoView();
+          scrollBy(0, -51);
+      });
+    </script
 
   </body>
 </html>
