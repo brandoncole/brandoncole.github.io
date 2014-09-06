@@ -70,6 +70,22 @@
     	background: url(./img/product-platform.jpg) no-repeat bottom left; 
     	background-size: cover;
     }
+    .footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 40px;
+      background-color: #f5f5f5;
+      padding: 6px;
+    }
+    .social {
+      color: #777;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .social:hover {
+      color: #2a6496;
+    }
     </style>
 
     <!-- Fixed navbar -->
@@ -88,9 +104,8 @@
           <ul class="nav navbar-nav">
             <li><a href="#intro">Intro</a></li>
             <li><a href="#autodesk">Autodesk Life</a></li>
-            <li><a href="#architect">Architect Life</a></li>
+            <li><a href="#architect">Professional Life</a></li>
             <li><a href="#personal">Personal Life</a></li>
-            <li><a href="#connect">Connect</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -113,7 +128,7 @@
     </div>
 
     <div class="container visible-print-inline-block" id="intro"> 
-      <h2>Brandon Cole</h2>
+      <h1>Brandon Cole</h1>
         <p>I’m a PaaS Software Architect at Autodesk, Inc. with 15+ years of experience. Alongside the brightest and most dedicated developers, designers and product managers in the industry we deliver Web, Mobile and Desktop applications that push the envelope of what’s technically possible&nbsp;&#10087;</p>
       </div>
     </div>
@@ -121,7 +136,7 @@
     <!-- Autodesk -->
     <div class="container" id="autodesk">
       <hr/>
-      <h2>Autodesk Life</h2>
+      <h1>Autodesk Life</h1>
       <p class="lead">I've been engineering <a href="http://www.autodesk.com/products">Autodesk Products</a> since 2003 &bullet; I'm currently leading key initiatives for the <a href="http://www.autodesk.com/products/personal-design-and-creativity">Personal Creativity</a> division &bullet; Autodesk is an <em>amazing</em> place to work: <a href="http://news.autodesk.com/press-release/corporate-sustainability/autodesk-again-named-one-fortunes-100-best-companies-work">FORTUNE</a> and <a href="http://www.forbes.com/pictures/efik45emlfi/no-12-autodesk/">Forbes</a> agree &bullet; <a href="http://www.autodesk.com/gallery/overview">Autodesk Gallery</a> is an awe-inspiring gallery that's open to the public &bullet; <a href="http://www.autodesk.org/">Autodesk Foundation</a> invests in the most impactful people and organizations using the power of design to create a better world &bullet; Autodesk's <a href="http://techcrunch.com/2014/05/11/a-tour-through-autodesks-pier-9-workshop-the-fabrication-facility-where-out-there-ideas-turn-into-reality/">Pier 9 Office</a> has gained notoriety for office design &bullet; We host a major user conference called <a href="http://au.autodesk.com/">Autodesk University</a> &bullet; Our <a href="http://3drv.com/">3D<b>RV</b></a> is on a road trip to see design in action &bullet; I was awarded patent <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=8462176.PN.&OS=PN/8462176&RS=PN/8462176">8,462,176</a> along the way &bullet; My colleagues have been all around the world: San Francisco &middot; Portland &middot; Atlanta &middot; Boston &middot; Boulder &middot; Chicago &middot; Detroit &middot; Canada &middot; Belgium &middot; India &middot; China&nbsp;&#10087;</p>
       <p class="lead">Here some of the commercially released products Autodesk I've worked on &raquo;</p>
       <div class="row">
@@ -131,7 +146,7 @@
               <h3 class="panel-title">&#8470; 1 &middot; Vault<span class="product-link"><a href="http://www.autodesk.com/products/vault-family/overview">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-vault"><img class="visible-print-inline-block product-image-print" src="./img/product-vault.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge">Windows</span> <span class="badge">Client / Server</span></div>
+            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge"><i class="fa fa-windows"></i></span> <span class="badge">Client / Server</span></div>
           </div>
         </div>
 
@@ -141,7 +156,7 @@
               <h3 class="panel-title">&#8470; 2 &middot; Inventor<span class="product-link"><a href="http://www.autodesk.com/products/inventor/overview">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-inventor"><img class="visible-print-inline-block product-image-print" src="./img/product-inventor.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge">Windows</span></div>
+            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge"><i class="fa fa-windows"></i></span></div>
           </div>
         </div>
 
@@ -151,7 +166,7 @@
               <h3 class="panel-title">&#8470; 3 &middot; Inventor LT<span class="product-link"><a href="http://www.autodesk.com/products/inventor-lt-family/overview">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-inventorlt"><img class="visible-print-inline-block product-image-print" src="./img/product-inventorlt.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge">Windows</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge"><i class="fa fa-windows"></i></span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
           </div>
         </div>
 
@@ -161,7 +176,7 @@
               <h3 class="panel-title">&#8470; 4 &middot; Publisher<span class="product-link"><a href="http://www.autodesk.com/products/inventor-publisher/overview">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-publisher"><img class="visible-print-inline-block product-image-print" src="./img/product-publisher.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge">Windows</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge"><i class="fa fa-windows"></i></span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
           </div>
         </div>
 
@@ -181,7 +196,7 @@
               <h3 class="panel-title">&#8470; 6 &middot; Fusion 360<span class="product-link"><a href="http://www.autodesk.com/products/fusion-360/overview">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-fusion"><img class="visible-print-inline-block product-image-print" src="./img/product-fusion.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge">Windows</span> <span class="badge">Mac</span><span class="badge" style="float: right; background-color: #2a6496;">Co-Architected</span></div>
+            <div class="panel-footer"><span class="badge">Desktop</span> <span class="badge"><i class="fa fa-windows"></i></span> <span class="badge"><i class="fa fa-apple"></i></span><span class="badge" style="float: right; background-color: #2a6496;">Co-Architected</span></div>
           </div>
         </div>
 
@@ -191,7 +206,7 @@
               <h3 class="panel-title">&#8470; 7 &middot; 123D Design<span class="product-link"><a href="http://www.123dapp.com/design">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-123d"><img class="visible-print-inline-block product-image-print" src="./img/product-123d.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Web</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+            <div class="panel-footer"><span class="badge">Web</span> <span class="badge"><i class="fa fa-html5"></i></span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
           </div>
         </div>
 
@@ -201,7 +216,7 @@
               <h3 class="panel-title">&#8470; 8 &middot; Tinkercad<span class="product-link"><a href="https://tinkercad.com">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-tinkercad"><img class="visible-print-inline-block product-image-print" src="./img/product-tinkercad.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Web</span><span class="badge" style="float: right; background-color: #2a6496;">Acquisition</span></div>
+            <div class="panel-footer"><span class="badge">Web</span> <span class="badge"><i class="fa fa-html5"></i></span><span class="badge" style="float: right; background-color: #2a6496;">Acquisition</span></div>
           </div>
         </div>
 
@@ -211,7 +226,7 @@
               <h3 class="panel-title">&#8470; 9 &middot; Creative Platform<span class="product-link"><a href="http://api.tinkercad.com">Official Site &raquo;</a></span></h3>
             </div>
             <div class="panel-body product-image product-platform"><img class="visible-print-inline-block product-image-print" src="./img/product-platform.jpg"/></div>
-            <div class="panel-footer"><span class="badge">Web</span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
+            <div class="panel-footer"><span class="badge">Web</span> <span class="badge"><i class="fa fa-html5"></i></span><span class="badge" style="float: right; background-color: #2a6496;">Architected</span></div>
           </div>
         </div>
 
@@ -221,7 +236,7 @@
 
     <div class="container unbreakable" id="architect">
       <hr class="hidden-print"/>
-      <h2>Professional Life</h2>
+      <h1>Professional Life</h1>
       <p class="lead">Software Architecture is about developing solutions for the business's near term objectives, while keeping in mind longer-term business objectives, emerging technologies, threat models, failure scenarios, cross team leveraging, strategic partnerships, operational costs and a team’s core competencies. Here’s the things I have worked with hands on at some point &raquo;</p>
       <h3 class="text-center">Competencies<h3>
       <p class="lead">SaaS &bullet; PaaS &bullet; Analytics &bullet; Latency &bullet; Content Delivery Networks &bullet; Product Designs &bullet; Wireframes &bullet; Mockups &bullet; Computer Aided Design &bullet; 3D Graphics &bullet; A/B Testing &bullet; Phased Roadmaps &bullet; Platform Development &bullet; Standards Compliance &bullet; API Design &bullet; Object Oriented Design &bullet; MVC Patterns &bullet; NoSQL &bullet; Sprite Sheets &bullet; Distributed Systems &bullet; Multitier Architectures &bullet; Front-End Development &bullet; Back-End Development &bullet; UML &bullet; Unit Tests &bullet; Performance Tuning &bullet; Fault Tolerance &bullet; Sharding &bullet; Load Balancing &bullet; Continuous Deployment &bullet; Agile Development &bullet; Sprint Planning &bullet; Single Points of Failure &bullet; Salted Passwords &bullet; ACID Transactions &bullet; Reverse Proxies &bullet; Encryption &bullet; SEO &bullet; Responsive Design &bullet; DevOps &bullet; UX &bullet; Patent Process &bullet; Cross Platform Development &bullet; OWASP Top 10 &bullet; SQL Injection &bullet; 3D Printing &bullet; CSG &bullet; Solid Modeling &bullet; Mesh Modeling &bullet; Globally Distributed Teams &bullet; Cross Functional Teams &bullet; Acquisitions &bullet; Employee Development &bullet; Customer Support &bullet; Social Media Campaigns &bullet; Live Demos To Large Audiences &bullet; Opportunity Cost &bullet; Build vs. Buy</p>
@@ -234,37 +249,26 @@
 
     <div class="container unbreakable" id="personal">
       <hr class="hidden-print"/>
-      <h2>Personal Life</h2>
+      <h1>Personal Life</h1>
       <p class="lead">Grew up in <a href="https://www.google.com/maps/place/Cincinnati,+OH">Cincinnati, Ohio</a> &bullet; Graduated from <a href="http://www.walnuthillseagles.com/">Walnut Hills High School</a> - <a href="http://www.usnews.com/education/best-high-schools/ohio/districts/cincinnati-city/walnut-hills-high-school-15134">ranked 77th</a> by U.S. News &amp; World Report &bullet; Graduated from <a href="http://www.kennesaw.edu/">Kennesaw State University</a> - Cum Laude &bullet; Reside in <a href="https://www.google.com/maps/place/Kennesaw,+GA">Kennesaw, GA</a> &bullet; Married to a wonderful woman with whom I have two amazing daughters &bullet; Preferred browser is Google Chrome &bullet; Preferred computer is an Apple MacBook &bullet; In the past I've worked at <a href="http://www.ironcad.com">IronCAD</a> and <a href="http://www.radiantsystems.com">Radiant Systems</a> (acquired by NCR) &bullet; Incorporated and managed my own software consultancy <em>Atom Solutions</em> for several years (now dissolved)&nbsp;&#10087;</p>
-    </div>
-
-    <div class="container" id="connect">
-      <hr/>
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-sm-6 col-md-4 print-thirds text-center">
-          <h2><i class="fa fa-linkedin-square"></i>&nbsp;LinkedIn</h2>
-          <p class="hidden-print"><a href="http://www.linkedin.com/in/brandonwc">
-          <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" alt="View Brandon Cole's profile on LinkedIn"></a></p>
-          <p class="visible-print-inline-block">@brandonwc</p>
-        </div>
-        <div class="col-sm-6 col-md-4 print-thirds text-center">
-          <h2><i class="fa fa-twitter-square"></i>&nbsp;Twitter</h2>
-          <p class="hidden-print"><a href="https://twitter.com/technitary" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @technitary</a></p>
-          <p class="visible-print-inline-block">@technitary</p>
-        </div>
-        <div class="col-sm-6 col-md-4 print-thirds text-center">
-          <h2><i class="fa fa-github-square"></i>&nbsp;GitHub</h2>
-          <p class="hidden-print"><iframe src="http://ghbtns.com/github-btn.html?user=brandoncole&type=follow&count=true&size=large" allowtransparency="true" frameborder="0" scrolling="0" width="224px" height="30px"></iframe></p>
-          <p class="visible-print-inline-block">@brandoncole</p>
-        </div>
+      <div class="visible-print-inline-block text-center" style="width: 100%;">
+      <i class="fa fa-twitter-square fa-3x"></i>&nbsp;<i class="fa fa-linkedin-square fa-3x"></i>&nbsp;<i class="fa fa-github-square fa-3x"></i>
       </div>
     </div>
+
 
     <div class="container text-center">
       <hr/>
       <p>This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" rel="dct:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a> and built with <a href="http://getbootstrap.com/" alt="Bootstrap">Bootstrap</a> and <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>.  Designed and built by me in Kennesaw, Georgia.  Last Updated on September 5th, 2014.</p>
       <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></p>
+    </div>
+
+    <div class="footer hidden-print">
+      <div class="container text-center">
+        <a href="https://twitter.com/technitary" class="social"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="http://www.linkedin.com/in/brandonwc" class="social"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="https://github.com/brandoncole" class="social"><i class="fa fa-github-square fa-2x"></i></a>
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
